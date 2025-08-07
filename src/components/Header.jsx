@@ -51,13 +51,13 @@ export default function Header({ darkMode, toggleDarkMode }) {
             >
               {/* {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />} */}
             </button>
-            {/* <button
+            <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <FiX size={20} /> : <FiMenu size={20} />}
-            </button> */}
+            </button>
           </div>
         </div>
 
