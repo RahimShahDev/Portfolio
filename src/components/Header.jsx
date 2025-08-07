@@ -44,13 +44,13 @@ export default function Header({ darkMode, toggleDarkMode }) {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            <button
+            {/* <button
               onClick={toggleDarkMode}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300"
               aria-label="Toggle dark mode"
             >
-              {/* {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />} */}
-            </button>
+              {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
+            </button> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300"
