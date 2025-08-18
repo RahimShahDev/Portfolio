@@ -10,7 +10,7 @@ export default function LoadingScreen() {
             <img
               src="/hero-image.png"
               alt="Logo"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-fill rounded-full"
             />
           </div>
 
