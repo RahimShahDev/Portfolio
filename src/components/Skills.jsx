@@ -44,14 +44,14 @@ export default function Skills() {
   ];
 
   const skillLevels = [
-    { name: "React.js", level: 85 },
-    { name: "Tailwind CSS", level: 95 },
-    { name: "JavaScript", level: 78 },
-    { name: "Next.js", level: 85 },
-    { name: "TypeScript", level: 78 },
-    { name: "Node.js", level: 65 },
-    { name: "Redux Toolkit", level: 70 },
-    { name: "RESTful APIs", level: 82 }
+    { name: "React.js", level: 76 },
+    { name: "Tailwind CSS", level: 86 },
+    { name: "JavaScript", level: 67 },
+    { name: "Next.js", level: 78 },
+    { name: "TypeScript", level: 69 },
+    { name: "Node.js", level: 58 },
+    { name: "Redux Toolkit", level: 62 },
+    { name: "RESTful APIs", level: 78 }
   ];
 
   return (
