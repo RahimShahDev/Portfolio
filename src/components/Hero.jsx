@@ -69,7 +69,7 @@ export default function Hero() {
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl p-2">
                 <div className="w-full h-full bg-white dark:bg-gray-800 rounded-full overflow-hidden">
                   <Image
-                    src="/image.png"
+                    src="/hero-image.png"
                     alt="Rahim Shah - Frontend Developer"
                     width={300}
                     height={300}
