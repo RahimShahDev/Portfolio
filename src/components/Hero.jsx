@@ -66,14 +66,14 @@ export default function Hero() {
 
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl p-2">
-                <div className="w-full h-full bg-white dark:bg-gray-800 rounded-full overflow-hidden">
+              <div className="w-88 h-88 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl p-2">
+                <div className="w-[100%] h-[100%] bg-white dark:bg-gray-800 rounded-full overflow-hidden">
                   <Image
                     src="/hero-image.png"
                     alt="Rahim Shah - Frontend Developer"
                     width={300}
                     height={300}
-                    className="w-full h-full object-cover rounded-full"
+                    className="w-full h-full object-fill rounded-full"
                     priority
                   />
                 </div>
