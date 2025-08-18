@@ -6,7 +6,7 @@ export default function LoadingScreen() {
       <div className="text-center">
         {/* Animated Logo */}
         <div className="relative mb-8">
-          <div className="w-24 h-24 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl animate-pulse overflow-hidden">
+          <div className="w-36 h-36 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl animate-pulse overflow-hidden">
             <img
               src="/hero-image.png"
               alt="Logo"
