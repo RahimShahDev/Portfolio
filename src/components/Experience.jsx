@@ -15,18 +15,19 @@ export default function Experience() {
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "Skylinx Technologies",
-      period: "July 2025 – Present",
-      location: "On-site",
-      description: [
-  "Designed and built modern, responsive user interfaces using React.js and Tailwind CSS",
-  "Optimized frontend performance with lazy loading, code splitting, and reusable components",
-  "Collaborated cross-functionally with UI/UX teams to deliver visually polished and accessible designs",
-  "Integrated RESTful APIs and managed complex state using Redux Toolkit and RTK Query"
-]
+  title: "Frontend Developer",
+  company: "Skylinx Technologies",
+  period: "July 2025 – Present",
+  location: "On-site",
+  description: [
+    "Building and maintaining Shopify Hydrogen/Remix storefronts with custom React.js components",
+    "Developing dynamic product catalog sections and reusable UI features with Tailwind CSS",
+    "Integrating Shopify Storefront APIs for collections, product data, and cart functionality",
+    "Debugging and optimizing storefront performance for smooth customer experience",
+    "Collaborating with design and backend teams to deliver pixel-perfect, responsive web apps"
+  ]
+}
 
-    }
   ];
 
   return (
