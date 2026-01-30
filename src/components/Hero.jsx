@@ -6,7 +6,7 @@ export default function Hero() {
   const handleDownloadResume = () => {
     // Create a dummy resume download
     const link = document.createElement('a');
-    link.href = '/RahimShah_Resume.pdf';
+    link.href = '/RahimShahCV.pdf';
     link.download = 'Rahim_Shah_Resume.pdf';
     link.click();
   };
