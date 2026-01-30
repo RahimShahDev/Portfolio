@@ -7,7 +7,7 @@ export default function Hero() {
     // Create a dummy resume download
     const link = document.createElement('a');
     link.href = '/RahimShahCV.pdf';
-    link.download = 'Rahim_Shah_Resume.pdf';
+    link.download = 'RahimShahCV.pdf';
     link.click();
   };
 
