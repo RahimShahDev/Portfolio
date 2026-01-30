@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">Lahore, Pakistan</p>
+                  <p className="text-gray-600 dark:text-gray-300">Shahkot (Faisalabad), Pakistan</p>
                 </div>
               </div>
             </div>

@@ -17,7 +17,7 @@ export default function Experience() {
     {
   title: "Frontend Developer",
   company: "Skylinx Technologies",
-  period: "July 2025 – Present",
+  period: "July 2025 – September 2025",
   location: "On-site",
   description: [
     "Building and maintaining Shopify Hydrogen/Remix storefronts with custom React.js components",
