@@ -3,16 +3,16 @@ import { FiDownload, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import Image from 'next/image';
 
 export default function Hero() {
-  // const handleDownloadResume = () => {
-  //   // Create a dummy resume download
-  //   const link = document.createElement('a');
-  //   link.href = '/RahimShahCV.pdf';
-  //   link.download = 'RahimShahCV.pdf';
-  //   link.click();
-  // };
+  const handleDownloadResume = () => {
+    // Create a dummy resume download
+    const link = document.createElement('a');
+    link.href = '/RahimShahCV.pdf';
+    link.download = 'RahimShahCV.pdf';
+    link.click();
+  };
 
   return (
-    <section id="home" className="pt-20 pb-16 bg-grAadient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
+    <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-6 py-20">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 mb-12 lg:mb-0">
@@ -28,22 +28,13 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              {/* <button
+              <button
                 onClick={handleDownloadResume}
                 className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
               >
                 <FiDownload size={20} />
                 Download Resume
-              </button> */}
-              <a
-  href="/RahimShahCV.pdf"
-  download
-  className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
->
-  <FiDownload size={20} />
-  Download Resume
-</a>
-
+              </button>
               <a
                 href="#contact"
                 className="flex items-center justify-center gap-2 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
