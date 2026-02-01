@@ -51,7 +51,9 @@ export default function Skills() {
     { name: "TypeScript", level: 69 },
     { name: "Node.js", level: 58 },
     { name: "Redux Toolkit", level: 62 },
-    { name: "RESTful APIs", level: 78 }
+    { name: "RESTful APIs", level: 78 },
+    { name: "Shopify", level: 40 },
+    { name: "Builder.io", level: 40 }
   ];
 
   return (

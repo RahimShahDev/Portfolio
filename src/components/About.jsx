@@ -36,11 +36,11 @@ export default function About() {
               <div className="text-gray-600 dark:text-gray-300">Years Experience</div>
             </div>
             <div className="text-center p-6 bg-green-50 dark:bg-gray-800 rounded-xl">
-              <div className="text-3xl font-bold text-green-600 mb-2">15+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">20+</div>
               <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
             </div>
             <div className="text-center p-6 bg-purple-50 dark:bg-gray-800 rounded-xl">
-              <div className="text-3xl font-bold text-purple-600 mb-2">5+</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">10+</div>
               <div className="text-gray-600 dark:text-gray-300">Interns Mentored</div>
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function Achievements() {
     },
     {
       icon: <FiHeart size={32} />,
-      title: "5+ Interns Mentored",
+      title: "10+ Interns Mentored",
       description: "Successfully guided junior developers in modern web technologies",
       color: "text-blue-600 dark:text-blue-400"
     },
