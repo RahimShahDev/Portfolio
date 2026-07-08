@@ -1,34 +1,46 @@
 import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi';
 
 export default function Experience() {
-  const experiences = [
-    {
-      title: "Frontend Developer",
-      company: "NGEN Circle (Pvt)",
-      period: "January 2024 – July 2025",
-      location: "On-site",
-      description: [
-        "Led UI development projects using React and modern JavaScript",
-        "Trained and mentored new interns on frontend development tools",
-        "Focused on component reusability and code maintainability",
-        "Implemented responsive designs and cross-browser compatibility"
-      ]
-    },
-    {
-  title: "Frontend Developer",
-  company: "Skylinx Technologies",
-  period: "July 2025 – September 2025",
-  location: "On-site",
-  description: [
-    "Building and maintaining Shopify Hydrogen/Remix storefronts with custom React.js components",
-    "Developing dynamic product catalog sections and reusable UI features with Tailwind CSS",
-    "Integrating Shopify Storefront APIs for collections, product data, and cart functionality",
-    "Debugging and optimizing storefront performance for smooth customer experience",
-    "Collaborating with design and backend teams to deliver pixel-perfect, responsive web apps"
-  ]
-}
-
-  ];
+const experiences = [
+  {
+    title: "Frontend Developer",
+    company: "NGEN Circle (Pvt)",
+    period: "January 2024 – July 2025",
+    location: "On-site",
+    description: [
+      "Led UI development projects using React and modern JavaScript",
+      "Trained and mentored new interns on frontend development tools",
+      "Focused on component reusability and code maintainability",
+      "Implemented responsive designs and cross-browser compatibility"
+    ]
+  },
+  {
+    title: "Frontend Developer",
+    company: "Skylinx Technologies",
+    period: "July 2025 – September 2025",
+    location: "On-site",
+    description: [
+      "Building and maintaining Shopify Hydrogen/Remix storefronts with custom React.js components",
+      "Developing dynamic product catalog sections and reusable UI features with Tailwind CSS",
+      "Integrating Shopify Storefront APIs for collections, product data, and cart functionality",
+      "Debugging and optimizing storefront performance for smooth customer experience",
+      "Collaborating with design and backend teams to deliver pixel-perfect, responsive web apps"
+    ]
+  },
+  {
+    title: "Visiting Lecturer (Computer Science)",
+    company: "Superior Group of Colleges",
+    period: "April 2026 – Present",
+    location: "On-site",
+    description: [
+      "Delivering undergraduate Computer Science lectures to BS students",
+      "Teaching core subjects including Web Development, Programming, and Software Engineering concepts",
+      "Preparing lecture materials, practical assignments, quizzes, and examinations",
+      "Guiding students in semester projects, problem-solving, and career development",
+      "Promoting interactive learning through real-world software development practices"
+    ]
+  }
+];
 
   return (
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
