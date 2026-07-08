@@ -80,7 +80,7 @@ export default function Footer() {
             <div className="space-y-2 text-gray-400">
               <p>rahimshah.dev@gmail.com</p>
               <p>+92 3476662833</p>
-              <p>Shahkot (Failsalbad), Pakistan</p>
+              <p>Shahkot (Failsalabad), Pakistan</p>
             </div>
           </div>
         </div>
